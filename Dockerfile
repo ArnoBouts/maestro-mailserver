@@ -1,5 +1,5 @@
 FROM tvial/docker-mailserver:latest
-# FROM_DIGEST sha256:cd44fdf931f9fad3d49ef0ba296038c0a281bd55acf80cf990395454df2840c5
+# FROM_DIGEST sha256:ee3e8e893e3db6d03d530c3ede6ad083cfea0dc9352cbe14b56e323391983e3e
 
 COPY dovecot-ldap.conf.ext /etc/dovecot
 
